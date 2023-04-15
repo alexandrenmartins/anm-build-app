@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def main():
-    return '<h1><p style="color:' + os.environ.get('APP_COLOR', 'black') + '">Hello World</p></h1>'
+    return '<h1><p style="color:' + os.environ.get('APP_COLOR', 'black') + '">Trabalho Infnet - Prática 2: BuildApp</p></h1>'
 
 @app.route('/api')
 def hello():
